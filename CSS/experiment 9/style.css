@@ -1,0 +1,15 @@
+.container{
+        display:grid;
+background-color:white;
+gap: 5px;
+grid-template-columns: repeat(3, 1fr);
+padding: 20px;
+    }
+.item{
+     font-size: 2em;
+     border-radius:10px ;
+     gap: 5px;
+     padding: 70px;
+      background-color: rgb(6, 146, 146);
+      color:whitesmoke ;
+}

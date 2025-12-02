@@ -1,0 +1,15 @@
+.productbox{
+}
+#h2{
+    color: red;
+}
+button{
+    color: white;
+    background-color: blue;
+}
+body{
+    text-align: center;
+    background-color: #acaca0;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
