@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrapper{
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        .wrapper {
+            border: 2px solid ;
+            border-radius: 5px;
+            background-color: aliceblue;
+        }
+        .wrapper > div{
+        border: 2px solid red;
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrapper">one</div>
+        <div class="wrapper">two</div>
+    <div class="wrapper">three</div>
+     <div class="wrapper">four</div>
+      <div class="wrapper">five</div>
+       <div class="wrapper">six</div>
+    </div>
+</body>
+</html>
