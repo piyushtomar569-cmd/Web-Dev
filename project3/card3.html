@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cards</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .conatiner{
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(85, 133, 125);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box {
+            width: 360px;
+            height: 550px;
+            background-color: rgb(208, 211, 194);
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            padding: 30px;
+            box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+        }
+        .box img{
+            width: 100%;
+            height: 50%;
+            border-top-left-radius: 20px;
+            border-top-right-radius:20px ;
+             box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+        .textbox {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            padding:10px;
+            text-align: center;
+        }
+        #amountbox {
+            width: 80%;
+            height: 10%;
+            box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+            background-color: rgb(50, 158, 149);
+            border-radius: 10px;
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        .leftbox {
+            width: fit-content;
+            display: flex;
+            gap: 10px;
+            height: 100%;
+            align-items: center;
+        }
+        /* .imgbox {
+            height: 3rem;
+            width: 2.5rem;
+        } */
+         #textamountbox {
+            font-size: bold;
+            color: whitesmoke;
+         }
+        .rightbox a{
+            text-decoration: none;
+            color: rgb(175, 8, 8);
+        }
+        #payment{
+            width: 30%;
+            height: 40%;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(12, 12, 78);
+            color: white;
+            border-radius: 30px;
+            box-shadow: rgba(16, 16, 128, 0.35) 0px 5px 15px;
+            font-weight: bold;
+        }
+        .cancel a{
+            text-decoration: none;
+            color:rgb(167, 10, 10) ;
+        }
+        
+          </style>
+</head>
+<body>
+    <div class="conatiner">
+        <div class="box">
+            <img src="tshirt.jpg">
+            <div class="textbox">
+           <b> <h1>Order summary</h1></b>
+            <p>split wolf design—one half rendered in sharp, geometric shapes and the other in a realistic illustration.
+                Wolves are often used to symbolize <b>strength, independence, loyalty, and leadership.</b>
+            </p>
+            </div>
+            <div id="amountbox">
+        <div class="leftbox">
+            <!-- <div class="imgbox">
+                <img src="image/music.png">
+            </div> -->
+            <div id="textamountbox">
+                <p>Amount</p>
+                <p>$99</p>
+            </div>
+        </div>
+        <div class="rightbox">
+            <a href="#">Details</a>
+        </div>
+            </div>
+             <button id="payment">Order now
+                </button>
+                <!-- <div class="cancel">
+                    <a href="#">Cancel order</a>
+                </div> -->
+            </div>
+            </body>
